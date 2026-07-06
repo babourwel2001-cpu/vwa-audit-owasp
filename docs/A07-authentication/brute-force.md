@@ -32,7 +32,8 @@ Username and/or password incorrect.
 - Résultat : Username and/or password incorrect.
 
 **Test 3 : Contournement SQL**
-- Payload utilisé : admin' OR 1=1 --
+- Username : admin' OR '1'='1
+- Password : (vide)
 - Résultat : Welcome to the password protected area admin
 
 ---
