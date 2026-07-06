@@ -50,6 +50,11 @@ Username and/or password incorrect.
 - Password : wrong
 - Résultat : Username and/or password incorrect.
 
+**Test 3 : Contournement SQL**
+- Username : admin' OR '1'='1
+- Password : (vide)
+- Résultat : Échec (le caractère ' est échappé par mysqli_real_escape_string)
+
 ---
 
 ### Niveau HIGH
