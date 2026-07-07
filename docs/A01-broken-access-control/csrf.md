@@ -133,10 +133,4 @@ http://localhost/DVWA/vulnerabilities/csrf/?password_current=password123&passwor
 
 ---
 
-## Recommandations
-
-- Utiliser des tokens CSRF pour chaque requête
-- Ne pas utiliser la méthode GET pour les actions sensibles
-- Demander le mot de passe actuel pour les changements
-- Valider le referer HTTP
-- Utiliser POST au lieu de GET
+iser POST au lieu de GET
