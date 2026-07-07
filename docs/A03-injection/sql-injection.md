@@ -61,8 +61,4 @@ Fatal error: Uncaught mysqli_sql_exception ...
 - Payload : 1' UNION SELECT database(), user() --
 - Résultat : Aucun résultat (requête vide)
 
----
 
-
-- Limiter les privilèges de la base de données
-- Valider et filtrer strictement les entrées
