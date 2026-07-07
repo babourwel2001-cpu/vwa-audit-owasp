@@ -71,6 +71,19 @@ Username and/or password incorrect.
 
 ---
 
+### Niveau IMPOSSIBLE
+
+**Test 1 : Identifiants valides**
+- Username : admin
+- Password : password
+- Résultat : Welcome to the password protected area admin
+
+**Test 2 : Identifiants invalides**
+- Username : admin
+- Password : wrong
+- Résultat : Username and/or password incorrect.  Alternative, the account has been locked because of too many failed logins. If this is the case, please try again in 15 minutes.
+
+
 ## Recommandations
 
 - Limiter le nombre de tentatives de connexion
