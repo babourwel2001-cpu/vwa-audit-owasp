@@ -85,9 +85,3 @@ PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
 
 ---
 
-## Recommandations
-
-- Ne jamais exécuter de commandes système avec des entrées utilisateur
-- Utiliser des fonctions qui échappent les caractères spéciaux
-- Valider et filtrer strictement les entrées
-- Utiliser une liste blanche de caractères autorisés
