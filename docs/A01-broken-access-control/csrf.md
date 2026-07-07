@@ -131,6 +131,5 @@ http://localhost/DVWA/vulnerabilities/csrf/?password_current=password123&passwor
 
 **Observation** : Le mot de passe actuel est demandé. Les paramètres sont visibles dans l'URL.
 
----
 
 iser POST au lieu de GET
