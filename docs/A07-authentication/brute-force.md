@@ -53,7 +53,7 @@ Username and/or password incorrect.
 **Test 3 : Contournement SQL**
 - Username : admin' OR '1'='1
 - Password : (vide)
-- Résultat : Échec (le caractère ' est échappé par mysqli_real_escape_string)
+- Résultat : Username and/or password incorrect.
 
 ---
 
@@ -69,6 +69,11 @@ Username and/or password incorrect.
 - Password : wrong
 - Résultat : Username and/or password incorrect.
 
+**Test 3 : Contournement SQL**
+- Username : admin' OR '1'='1
+- Password : (vide)
+- Résultat : Username and/or password incorrect.
+
 ---
 
 ### Niveau IMPOSSIBLE
@@ -81,6 +86,11 @@ Username and/or password incorrect.
 **Test 2 : Identifiants invalides**
 - Username : admin
 - Password : wrong
+- Résultat : Username and/or password incorrect.  Alternative, the account has been locked because of too many failed logins. If this is the case, please try again in 15 minutes.
+
+**Test 3 : Contournement SQL**
+- Username : admin' OR '1'='1
+- Password : (vide)
 - Résultat : Username and/or password incorrect.  Alternative, the account has been locked because of too many failed logins. If this is the case, please try again in 15 minutes.
 
 
