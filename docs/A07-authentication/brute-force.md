@@ -94,8 +94,3 @@ Username and/or password incorrect.
 - Résultat : Username and/or password incorrect.  Alternative, the account has been locked because of too many failed logins. If this is the case, please try again in 15 minutes.
 
 
-## Recommandations
-
-- Limiter le nombre de tentatives de connexion
-- Ajouter un CAPTCHA après plusieurs échecs
-- Utiliser des requêtes paramétrées
