@@ -47,6 +47,4 @@ http://localhost/DVWA/vulnerabilities/captcha/?password_new=test123&password_con
 
 ---
 
-p
-- Demander le mot de passe actuel
-- Utiliser POST au lieu de GET
+
