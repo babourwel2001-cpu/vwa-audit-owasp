@@ -39,14 +39,49 @@ PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
 ---
 
 ### Niveau MEDIUM
+**Test 1 : Commande normale**
+- Payload : 127.0.0.1
+- Résultat : Ping normal
 
-(A tester)
+**Test 2 : Injection de commande**
+- Payload : 127.0.0.1; whoami
+- Résultat : RIEN
+
+**Test 3 : Lecture de fichier**
+- Payload : 127.0.0.1; cat /etc/passwd
+- Résultat : RIEN
 
 ---
 
 ### Niveau HIGH
 
-(A tester)
+**Test 1 : Commande normale**
+- Payload : 127.0.0.1
+- Résultat : Ping normal
+
+**Test 2 : Injection de commande**
+- Payload : 127.0.0.1; whoami
+- Résultat : RIEN
+
+**Test 3 : Lecture de fichier**
+- Payload : 127.0.0.1; cat /etc/passwd
+- Résultat : RIEN
+
+---
+
+### Niveau IMPOSSIBLE
+
+**Test 1 : Commande normale**
+- Payload : 127.0.0.1
+- Résultat : Ping normal
+
+**Test 2 : Injection de commande**
+- Payload : 127.0.0.1; whoami
+- Résultat : ERROR: You have entered an invalid IP.
+
+**Test 3 : Lecture de fichier**
+- Payload : 127.0.0.1; cat /etc/passwd
+- Résultat : ERROR: You have entered an invalid IP.
 
 ---
 
