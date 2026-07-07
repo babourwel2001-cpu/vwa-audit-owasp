@@ -63,9 +63,6 @@ Fatal error: Uncaught mysqli_sql_exception ...
 
 ---
 
-## Recommandations
 
-- Utiliser des requêtes paramétrées
-- Échapper les entrées utilisateur
 - Limiter les privilèges de la base de données
 - Valider et filtrer strictement les entrées
