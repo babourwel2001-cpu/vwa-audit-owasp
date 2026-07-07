@@ -3,7 +3,7 @@
 **Catégorie OWASP Top 10** : A01:2021 - Broken Access Control
 **Sévérité** : Élevée
 **URL testée** : http://localhost/DVWA/vulnerabilities/csrf/
-**Date du test** : 06/07/2026
+**Date du test** : 07/07/2026
 
 ---
 
