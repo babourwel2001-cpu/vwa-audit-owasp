@@ -73,9 +73,3 @@ Warning: include(): Failed opening ... No such file or directory
 
 ---
 
-## Recommandations
-
-- Ne pas inclure de fichiers basés sur l'entrée utilisateur
-- Utiliser une liste blanche de fichiers autorisés
-- Désactiver allow_url_include dans php.ini
-- Valider et filtrer strictement les entrées
