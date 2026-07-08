@@ -57,9 +57,4 @@ Guestbook signé
 
 ---
 
-## Recommandations
 
-- Échapper les caractères spéciaux (<, >, ", ', /)
-- Utiliser htmlspecialchars() en PHP
-- Valider et filtrer les entrées utilisateur
-- Mettre en place une Content Security Policy (CSP)
