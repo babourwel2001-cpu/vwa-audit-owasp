@@ -31,7 +31,7 @@ L'application ne vérifie pas côté serveur si l'utilisateur connecté possède
 
 ### Niveau IMPOSSIBLE
 
-**Sécurisation** : Le code est entièrement corrigé. Le contrôle d'accès est géré de manière stricte côté serveur via le modèle RBAC (Role-Based Access Control). Chaque requête vérifie de manière unique que l'utilisateur possède bien la permission d'exécuter l'action demandée.
+**Sécurisation** : Le code est entièrement corrigé. Le contrôle d'accès est géré de manière stricte côté serveur. Chaque requête vérifie de manière unique que l'utilisateur possède bien la permission d'exécuter l'action demandée.
 
 **Résultat** : L'accès à la page restreinte est bloqué pour les utilisateurs non autorisés.
 
