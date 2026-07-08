@@ -49,6 +49,3 @@ Your image was not uploaded. We can only accept JPEG or PNG images.
 
 ---
 
-
-- Stocker les fichiers hors du répertoire web
-- Désactiver l'exécution de PHP dans le dossier d'upload
