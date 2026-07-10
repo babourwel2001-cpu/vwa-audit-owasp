@@ -6,7 +6,7 @@
 
 ---
 
-## Mesures appliquées
+### Mesures appliquées
 
 **Content-Security-Policy (CSP) et Filtrage des caractères dangereux**
 Fichier : `/etc/apache2/conf-available/xss.conf`
@@ -19,19 +19,29 @@ Header always set Content-Security-Policy "default-src 'self'; script-src 'self'
 RewriteCond %{QUERY_STRING} (<|>|javascript:|onerror|onload|onclick) [NC]
 RewriteRule .* - [F,L]
 ```
-##Test de Validation
+---
+
+---
+### Test de Validation
+
 --Requête testée : <script>alert('XSS')</script>
 
 --Résultat avant remédiation : Pop up d'alerte affichée
 
 --Résultat après remédiation : 403 Forbidden
 
-##Limites
+---
+---
+### Limites
   -- Les règles Apache ne protègent que ce module spécifique
 
   -- Une validation stricte des entrées côté code reste la solution la plus fiable
+
+
+---
   
-##Recommendations
+### Recommendations
+
   -- Échapper systématiquement les sorties HTML avec htmlspecialchars()
 
   -- Utiliser une Content-Security-Policy stricte
